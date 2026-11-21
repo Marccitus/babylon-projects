@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Babylon Projects — Análisis, inversión y desarrollo de proyectos empresariales</title>
+  <meta name="description" content="Babylon Projects analiza, desarrolla, gestiona y evalúa proyectos empresariales. Inversión, consultoría de inteligencia artificial y creación de nuevos negocios desde Barcelona.">
+  <meta name="theme-color" content="#0A0A0A">
+
+  <!-- Open Graph / redes -->
+  <!-- TODO: si se compra un dominio propio, cambiar estas URLs (y robots.txt / sitemap.xml) -->
+  <link rel="canonical" href="https://marccitus.github.io/babylon-projects/">
+  <meta property="og:url" content="https://marccitus.github.io/babylon-projects/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Babylon Projects">
+  <meta property="og:title" content="Babylon Projects — Análisis, inversión y desarrollo de proyectos empresariales">
+  <meta property="og:description" content="Babylon Projects analiza, desarrolla, gestiona y evalúa proyectos empresariales. Inversión, consultoría de inteligencia artificial y creación de nuevos negocios desde Barcelona.">
+  <meta property="og:image" content="https://marccitus.github.io/babylon-projects/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Babylon Projects">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/icon-512.png">
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Jost:wght@300;400;500&display=swap">
+
+  <link rel="preload" as="image" href="assets/images/hero.webp" type="image/webp">
+  <link rel="stylesheet" href="src/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="src/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="a11y.skip">Ir al contenido</a>
+
+  <!-- 0 · Navegación -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#inicio" aria-label="Babylon Projects, volver al inicio">
+        <img src="assets/logo/isotipo-B-ivory.png" alt="" width="290" height="280">
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-label" data-i18n="nav.menu">Menú</span>
+        <span class="nav__toggle-lines" aria-hidden="true"></span>
+      </button>
+      <nav class="nav__menu" id="nav-menu" aria-label="Principal">
+        <ul>
+          <li><a href="#hacemos" data-i18n="nav.hacemos">hacemos</a></li>
+          <li><a href="#areas" data-i18n="nav.areas">áreas</a></li>
+          <li><a href="#somos" data-i18n="nav.somos">somos</a></li>
+          <li><a href="#equipo" data-i18n="nav.equipo">equipo</a></li>
+          <li><a href="#creemos" data-i18n="nav.creemos">creemos</a></li>
+          <li><a href="#contacto" data-i18n="nav.contacto">contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- 1 · Hero -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <picture class="hero__media">
+        <source srcset="assets/images/hero.webp" type="image/webp">
+        <img src="assets/images/hero.jpg" alt="Fachadas modernistas de Barcelona iluminadas por la luz cálida del atardecer" width="1536" height="1024" fetchpriority="high" style="object-position: center center">
+      </picture>
+      <div class="hero__content">
+        <img class="hero__logo" src="assets/logo/logo-completo-ivory.png" alt="Babylon Projects" width="740" height="465">
+        <h1 class="hero__title" id="hero-title" data-i18n="hero.title">Analizamos el presente. Construimos el futuro.</h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">Proyectos empresariales, inversión e inteligencia artificial.</p>
+        <a class="btn" href="#contacto" data-i18n="hero.cta">Hablemos</a>
+      </div>
+      <a class="hero__scroll" href="#hacemos" aria-label="Bajar a la siguiente sección"><span></span></a>
+    </section>
+
+    <!-- 2 · hacemos -->
+    <section class="section section--light" id="hacemos" aria-labelledby="hacemos-title">
+      <div class="banner-wrap">
+        <picture class="banner reveal">
+          <source srcset="assets/images/hacemos.webp" type="image/webp">
+          <img src="assets/images/hacemos.jpg" alt="Mesa de trabajo con planos, una libreta y una pluma" width="1536" height="1024" loading="lazy" decoding="async" style="object-position: center 60%">
+        </picture>
+      </div>
+      <div class="container section__body">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow" data-i18n="hacemos.label">— hacemos —</p>
+          <h2 class="tagline" id="hacemos-title" data-i18n="hacemos.tagline">Del análisis a la ejecución.</h2>
+          <p class="lead" data-i18n="hacemos.text">En Babylon Projects acompañamos cada proyecto empresarial a lo largo de todo su ciclo: lo analizamos con rigor, lo evaluamos con criterio, lo gestionamos con método y lo hacemos crecer.</p>
+        </header>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">01</span>
+            <h3 class="step__title" data-i18n="hacemos.b1.title">Analizar</h3>
+            <p data-i18n="hacemos.b1.text">Estudiamos cada oportunidad en profundidad antes de tomar decisiones.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">02</span>
+            <h3 class="step__title" data-i18n="hacemos.b2.title">Desarrollar</h3>
+            <p data-i18n="hacemos.b2.text">Convertimos las ideas en proyectos estructurados y viables.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num" aria-hidden="true">03</span>
+            <h3 class="step__title" data-i18n="hacemos.b3.title">Gestionar</h3>
+            <p data-i18n="hacemos.b3.text">Hacemos seguimiento y definimos procesos para que los proyectos avancen.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 3 · áreas -->
+    <section class="section section--dark" id="areas" aria-labelledby="areas-title">
+      <div class="container section__body">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow" data-i18n="areas.label">— áreas —</p>
+          <h2 class="tagline" id="areas-title" data-i18n="areas.tagline">Cuatro áreas, una misma visión.</h2>
+        </header>
+        <ul class="areas">
+          <li class="area reveal">
+            <picture class="area__media">
+              <source srcset="assets/images/area-analisis.webp" type="image/webp">
+              <img src="assets/images/area-analisis.jpg" alt="Planos de arquitectura modernista vistos desde arriba" width="1024" height="1536" loading="lazy" decoding="async" style="object-position: center center">
+            </picture>
+            <div class="area__body">
+              <span class="area__num" aria-hidden="true">01</span>
+              <h3 class="area__title" data-i18n="areas.a1.title">Análisis y Gestión de Proyectos</h3>
+              <p data-i18n="areas.a1.text">Análisis y due diligence de oportunidades, y project management: gestión, seguimiento y procesos.</p>
+            </div>
+          </li>
+          <li class="area reveal">
+            <picture class="area__media">
+              <source srcset="assets/images/area-inversion.webp" type="image/webp">
+              <img src="assets/images/area-inversion.jpg" alt="Escalera de caracol vista desde abajo hacia la claraboya" width="1024" height="1536" loading="lazy" decoding="async" style="object-position: center 40%">
+            </picture>
+            <div class="area__body">
+              <span class="area__num" aria-hidden="true">02</span>
+              <h3 class="area__title" data-i18n="areas.a2.title">Evaluación de Proyectos e Inversión</h3>
+              <p data-i18n="areas.a2.text">Evaluamos oportunidades empresariales y de inversión con una mirada a largo plazo.</p>
+            </div>
+          </li>
+          <li class="area reveal">
+            <picture class="area__media">
+              <source srcset="assets/images/area-ia.webp" type="image/webp">
+              <img src="assets/images/area-ia.jpg" alt="Hilos de fibra óptica de luz cálida sobre cristal oscuro" width="1024" height="1536" loading="lazy" decoding="async" style="object-position: center center">
+            </picture>
+            <div class="area__body">
+              <span class="area__num" aria-hidden="true">03</span>
+              <h3 class="area__title" data-i18n="areas.a3.title">IA Consulting</h3>
+              <p data-i18n="areas.a3.text">Consultoría en inteligencia artificial para empresas que quieren trabajar de forma más inteligente.</p>
+            </div>
+          </li>
+          <li class="area area--soon reveal">
+            <picture class="area__media">
+              <source srcset="assets/images/area-kapiros.webp" type="image/webp">
+              <img src="assets/images/area-kapiros.jpg" alt="Frasco de cristal ámbar sobre un bloque de travertino" width="1024" height="1536" loading="lazy" decoding="async" style="object-position: center 55%">
+            </picture>
+            <span class="badge" data-i18n="areas.a4.badge">Próximamente</span>
+            <div class="area__body">
+              <span class="area__num" aria-hidden="true">04</span>
+              <h3 class="area__title" data-i18n="areas.a4.title">Kapiros</h3>
+              <p data-i18n="areas.a4.text">Proyecto en desarrollo: una nueva marca de suplementos nutricionales.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 · somos -->
+    <section class="section section--bone" id="somos" aria-labelledby="somos-title">
+      <div class="banner-wrap">
+        <picture class="banner reveal">
+          <source srcset="assets/images/somos.webp" type="image/webp">
+          <img src="assets/images/somos.jpg" alt="Oficina luminosa en el Eixample de Barcelona con el equipo trabajando de espaldas" width="1536" height="1024" loading="lazy" decoding="async" style="object-position: center 55%">
+        </picture>
+      </div>
+      <div class="container section__body">
+        <div class="split">
+          <header class="split__head reveal">
+            <p class="eyebrow" data-i18n="somos.label">— somos —</p>
+            <h2 class="tagline" id="somos-title" data-i18n="somos.tagline">Una sociedad pensada para crear.</h2>
+          </header>
+          <p class="lead split__text reveal" data-i18n="somos.text">Babylon Projects nace en Barcelona con una idea sencilla: <strong>los buenos proyectos se construyen con análisis, criterio y constancia</strong>. Reunimos perfiles complementarios en gestión, inversión y tecnología para estudiar oportunidades, darles forma y <strong>crear nuevos negocios</strong>.</p>
+        </div>
+        <ul class="pillars reveal" aria-label="Pilares">
+          <li data-i18n="somos.p1">Rigor</li>
+          <li data-i18n="somos.p2">Visión</li>
+          <li data-i18n="somos.p3">Ejecución</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5 · equipo -->
+    <section class="section section--carbon" id="equipo" aria-labelledby="equipo-title">
+      <div class="container section__body">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow" data-i18n="equipo.label">— equipo —</p>
+          <h2 class="tagline" id="equipo-title" data-i18n="equipo.tagline">Las personas detrás de cada proyecto.</h2>
+        </header>
+
+        <figure class="member member--lead reveal" tabindex="0">
+          <picture class="member__photo">
+            <source srcset="assets/team/josep-oriol-serra.webp" type="image/webp">
+            <img src="assets/team/josep-oriol-serra.png" alt="Retrato de Josep Oriol Serra" width="800" height="800" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>
+            <span class="member__name">Josep Oriol Serra</span>
+            <span class="member__role" data-i18n="equipo.oriol.role">CEO&nbsp;· Dirección general</span>
+          </figcaption>
+        </figure>
+
+        <ul class="team">
+          <li>
+            <figure class="member reveal" tabindex="0">
+              <picture class="member__photo">
+                <source srcset="assets/team/carolina-velez.webp" type="image/webp">
+                <img src="assets/team/carolina-velez.png" alt="Retrato de Carolina Vélez" width="800" height="800" loading="lazy" decoding="async">
+              </picture>
+              <figcaption>
+                <span class="member__name">Carolina Vélez</span>
+                <span class="member__role" data-i18n="equipo.carolina.role">Asistente del CEO&nbsp;· Kapiros</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="member reveal" tabindex="0">
+              <picture class="member__photo">
+                <source srcset="assets/team/carlota-roure.webp" type="image/webp">
+                <img src="assets/team/carlota-roure.png" alt="Retrato de Carlota Roure" width="800" height="800" loading="lazy" decoding="async">
+              </picture>
+              <figcaption>
+                <span class="member__name">Carlota Roure</span>
+                <span class="member__role" data-i18n="equipo.carlota.role">Análisis y Gestión de Proyectos</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="member reveal" tabindex="0">
+              <picture class="member__photo">
+                <source srcset="assets/team/laia-buisan.webp" type="image/webp">
+                <img src="assets/team/laia-buisan.png" alt="Retrato de Laia Buisan" width="800" height="800" loading="lazy" decoding="async">
+              </picture>
+              <figcaption>
+                <span class="member__name">Laia Buisan</span>
+                <span class="member__role" data-i18n="equipo.laia.role">Análisis y Gestión de Proyectos</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="member reveal" tabindex="0">
+              <picture class="member__photo">
+                <source srcset="assets/team/marc-oriol-serra.webp" type="image/webp">
+                <img src="assets/team/marc-oriol-serra.png" alt="Retrato de Marc Oriol Serra" width="800" height="800" loading="lazy" decoding="async">
+              </picture>
+              <figcaption>
+                <span class="member__name">Marc Oriol Serra</span>
+                <span class="member__role" data-i18n="equipo.marc.role">Evaluación e Inversión&nbsp;· IA Consulting</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="member reveal" tabindex="0">
+              <picture class="member__photo">
+                <source srcset="assets/team/arnau-serra.webp" type="image/webp">
+                <img src="assets/team/arnau-serra.png" alt="Retrato de Arnau Serra" width="800" height="800" loading="lazy" decoding="async">
+              </picture>
+              <figcaption>
+                <span class="member__name">Arnau Serra</span>
+                <span class="member__role" data-i18n="equipo.arnau.role">Evaluación e Inversión&nbsp;· IA Consulting</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6 · creemos -->
+    <section class="section section--marble" id="creemos" aria-labelledby="creemos-title">
+      <picture class="marble" aria-hidden="true">
+        <source srcset="assets/images/creemos.webp" type="image/webp">
+        <img src="assets/images/creemos.jpg" alt="" width="1536" height="1024" loading="lazy" decoding="async" style="object-position: center center">
+      </picture>
+      <div class="container section__body">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow" data-i18n="creemos.label">— creemos —</p>
+          <h2 class="tagline" id="creemos-title" data-i18n="creemos.tagline">Lo que nos define.</h2>
+        </header>
+        <dl class="values">
+          <div class="value reveal">
+            <dt data-i18n="creemos.v1.word">rigor</dt>
+            <dd data-i18n="creemos.v1.text">Cada decisión se apoya en un análisis honesto.</dd>
+          </div>
+          <div class="value reveal">
+            <dt data-i18n="creemos.v2.word">visión</dt>
+            <dd data-i18n="creemos.v2.text">Pensamos en lo que un proyecto puede llegar a ser.</dd>
+          </div>
+          <div class="value reveal">
+            <dt data-i18n="creemos.v3.word">compromiso</dt>
+            <dd data-i18n="creemos.v3.text">Nos implicamos en cada proyecto como si fuera propio.</dd>
+          </div>
+          <div class="value reveal">
+            <dt data-i18n="creemos.v4.word">innovación</dt>
+            <dd data-i18n="creemos.v4.text">Incorporamos la inteligencia artificial y nuevas formas de trabajar.</dd>
+          </div>
+          <div class="value reveal">
+            <dt data-i18n="creemos.v5.word">equipo</dt>
+            <dd data-i18n="creemos.v5.text">Perfiles distintos, un mismo objetivo.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 7 · contacto -->
+    <section class="section section--light" id="contacto" aria-labelledby="contacto-title">
+      <div class="banner-wrap">
+        <picture class="banner reveal">
+          <source srcset="assets/images/contacto.webp" type="image/webp">
+          <img src="assets/images/contacto.jpg" alt="Vista aérea del Eixample de Barcelona al anochecer con el mar al fondo" width="1536" height="1024" loading="lazy" decoding="async" style="object-position: center 65%">
+        </picture>
+      </div>
+      <div class="container section__body">
+        <div class="contact">
+          <div class="contact__info reveal">
+            <p class="eyebrow" data-i18n="contacto.label">— contacto —</p>
+            <h2 class="tagline" id="contacto-title" data-i18n="contacto.tagline">Hablemos de tu proyecto.</h2>
+            <p class="lead" data-i18n="contacto.text">¿Tienes una oportunidad, un proyecto o una idea? Cuéntanosla.</p>
+
+            <address class="contact__data">
+              <div class="contact__row">
+                <span class="contact__label" data-i18n="contacto.oficina">Oficina</span>
+                <span>Barcelona</span>
+                <!-- TODO [PENDIENTE]: dirección completa. Ej.: <span>Calle, número · 080XX Barcelona</span> -->
+              </div>
+              <!-- TODO [PENDIENTE]: email. Descomentar cuando exista:
+              <div class="contact__row">
+                <span class="contact__label">Email</span>
+                <a href="mailto:EMAIL_PENDIENTE">EMAIL_PENDIENTE</a>
+              </div>
+              -->
+              <!-- TODO [PENDIENTE]: teléfono. Descomentar cuando exista:
+              <div class="contact__row">
+                <span class="contact__label">Teléfono</span>
+                <a href="tel:+34000000000">TELÉFONO_PENDIENTE</a>
+              </div>
+              -->
+              <!-- TODO [PENDIENTE]: redes. Descomentar cuando existan:
+              <div class="contact__row">
+                <span class="contact__label">Redes</span>
+                <span><a href="LINKEDIN_PENDIENTE" rel="noopener">LinkedIn</a> · <a href="INSTAGRAM_PENDIENTE" rel="noopener">Instagram</a></span>
+              </div>
+              -->
+            </address>
+          </div>
+
+          <!-- TODO: conectar el formulario. Opciones:
+               · Formspree: action="https://formspree.io/f/XXXXXXX" method="POST"
+               · Netlify Forms: añadir data-netlify="true" y name="contacto" (+ input hidden form-name)
+               Mientras action esté vacío, main.js valida y muestra el mensaje sin enviar nada. -->
+          <form class="form reveal" id="contact-form" action="" method="POST" novalidate>
+            <div class="field">
+              <label for="f-nombre" data-i18n="form.nombre">Nombre</label>
+              <input id="f-nombre" name="nombre" type="text" autocomplete="name" required>
+              <p class="field__error" id="f-nombre-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-email" data-i18n="form.email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+              <p class="field__error" id="f-email-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-asunto" data-i18n="form.asunto">Asunto</label>
+              <div class="select">
+                <select id="f-asunto" name="asunto" required>
+                  <option value="" data-i18n="form.asunto.placeholder">Selecciona una opción</option>
+                  <option value="analisis-gestion" data-i18n="form.asunto.o1">Análisis y gestión de proyectos</option>
+                  <option value="inversion" data-i18n="form.asunto.o2">Inversión</option>
+                  <option value="ia-consulting" data-i18n="form.asunto.o3">IA Consulting</option>
+                  <option value="otro" data-i18n="form.asunto.o4">Otro</option>
+                </select>
+              </div>
+              <p class="field__error" id="f-asunto-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-mensaje" data-i18n="form.mensaje">Mensaje</label>
+              <textarea id="f-mensaje" name="mensaje" rows="5" required></textarea>
+              <p class="field__error" id="f-mensaje-err" aria-live="polite"></p>
+            </div>
+            <div class="field field--check">
+              <input id="f-privacidad" name="privacidad" type="checkbox" required>
+              <!-- TODO [PENDIENTE]: enlazar a la página real de política de privacidad -->
+              <label for="f-privacidad"><span data-i18n="form.privacidad">He leído y acepto la</span> <a href="#" data-i18n="form.privacidad.link">política de privacidad</a>.</label>
+              <p class="field__error" id="f-privacidad-err" aria-live="polite"></p>
+            </div>
+            <button class="btn btn--dark" type="submit" data-i18n="form.enviar">Enviar</button>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8 · Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img class="footer__logo" src="assets/logo/logo-completo-ivory.png" alt="Babylon Projects" width="740" height="465" loading="lazy" decoding="async">
+      <nav aria-label="Legal">
+        <ul class="footer__links">
+          <!-- TODO [PENDIENTE]: páginas legales -->
+          <li><a href="#" data-i18n="footer.aviso">Aviso legal</a></li>
+          <li><a href="#" data-i18n="footer.privacidad">Política de privacidad</a></li>
+          <li><a href="#" data-i18n="footer.cookies">Política de cookies</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copy" data-i18n="footer.copy">© 2026 Babylon Projects. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

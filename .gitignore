@@ -1,0 +1,8 @@
+# Material interno: no se publica
+docs/
+CLAUDE.md
+PROMPT-INICIO.md
+README.md
+assets/logo/logo-original-fondo-negro.png
+.DS_Store
+.claude/

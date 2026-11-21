@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marccitus.github.io/babylon-projects/sitemap.xml
