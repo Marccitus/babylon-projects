@@ -570,6 +570,10 @@ body.menu-open .nav__brand { opacity: 1; visibility: visible; }
 .member:focus-visible .member__photo img {
   filter: grayscale(0) contrast(1);
 }
+/* Pantallas táctiles (sin hover): retratos siempre en color */
+@media (hover: none) {
+  .member__photo img { filter: none; }
+}
 .member:focus-visible .member__photo {
   outline: 1px solid var(--marfil);
   outline-offset: 6px;
